@@ -30,12 +30,12 @@ pipeline {
                 bat "${env.MAVEN_HOME}/mvn test"
             }
         }
-        stage('Run') {
-            steps {
-                echo "Démarrage de l'application..."
-                bat "java -jar target/HelloWorld-1.0-SNAPSHOT.jar"
-            }
-        }
+        //stage('Run') {
+            //steps {
+                //echo "Démarrage de l'application..."
+                //bat "java -jar target/HelloWorld-1.0-SNAPSHOT.jar"
+            //}
+        //}
         //stage('Deploy') {
             //steps {
                 //echo "Déploiement de l'application..."
