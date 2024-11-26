@@ -11,6 +11,8 @@ public class App {
 
     public static void main(String[] args) {
         int n = 10; // Nombre de termes à afficher
+        //Modification
+        System.out.println("Nous sommes l'équipe 4");
 
         System.out.println("Les 10 premiers nombres de la suite de Fibonacci (récursif) sont :");
         for (int i = 0; i < n; i++) {
