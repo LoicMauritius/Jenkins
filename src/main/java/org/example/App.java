@@ -1,7 +1,7 @@
 package org.example;
 
 public class App {
-    // Méthode récursive pour calculer le n-ième terme de Fibonacci
+    // Méthode récursive pour calculer un terme de la suite de Fibonnacci
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
