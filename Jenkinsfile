@@ -1,10 +1,11 @@
 pipeline {
     agent any
 
-    triggers {
+    // Ecoute le webhook ( en cours... )
+    //triggers {
         // Polling pour écouter les événements du webhook
-        pollSCM('')
-    }
+        //pollSCM('')
+    //}
 
     environment {
         MAVEN_HOME = "C:/apache-maven-3.9.9/bin"
