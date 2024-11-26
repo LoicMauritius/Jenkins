@@ -9,7 +9,7 @@ pipeline{
     }
     stage('Test'){
       steps{
-        sh 'C:\\apache-maven-3.9.9\bin\mvn test'
+        sh 'C:\apache-maven-3.9.9\bin\mvn test'
       }
     }
   }
